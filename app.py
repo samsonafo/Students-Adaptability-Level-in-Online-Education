@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
+from PIL import Image
 import pickle
 
 import warnings
@@ -31,7 +31,7 @@ hide_streamlit_style = """
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-st.sidebar.image("img/side_img.jpg", width=250)
+#st.sidebar.image("img/side_img.jpg", width=250)
 
 def set_background(png_file):
     bin_str = get_base64(png_file)
@@ -48,6 +48,9 @@ def set_background(png_file):
 #set_background('')
 
 st.title('Student Adaptibility Level in Online Learning')
+image = Image.open('./img/header_img.jpg')
+st.image(image, caption='Photo by David Marcu on Unsplash')
+
 
 #load in pipeline
 pipeline_file = './pipeline/gb_pipeline.pkl'
