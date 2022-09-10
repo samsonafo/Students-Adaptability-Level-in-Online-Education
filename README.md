@@ -11,9 +11,9 @@ The task is to build a model to predict the outcome of students adaptability lev
 1. data : folder containing all datasets.
 2. img: folder containing all images used.
 3. pipeline: folder containing pipelines and target encoder saved to disk.
-4. app.py
+4. flask_test.py : test run with flask
 5. Data Prep and model.ipynb : Data prep and model development.
-6. streamlit.py: streamlit python script.
+6. app.py: streamlit python script.
 7. functions.py: python script containing all functions used in project.
 8. requirements.txt
 
