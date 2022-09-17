@@ -4,6 +4,8 @@
 
 The task is to build a model to predict the outcome of students adaptability level in online education using machine learning approaches.
 
+The App is available at https://bit.ly/3BEVwYV
+
 ### Language Used : Python --version: 3.8.11
 
 ## Repo Contents
